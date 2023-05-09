@@ -1,0 +1,594 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Secular One", sans-serif;
+  padding: 20px;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+}
+.bgnav {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  background: #f7f7f9;
+  border-bottom: 2px solid #f03827;
+}
+.bgnav img {
+  position: absolute;
+  width: 180px;
+  left: 48px;
+  top: 13px;
+}
+.bgnav a:nth-child(2),
+.bgnav a:nth-child(3) {
+  box-sizing: border-box;
+  text-decoration: none;
+  position: relative;
+  margin-left: 9px;
+  padding: 10px 15px 10px 15px;
+  width: 115px;
+  height: 37px;
+  left: 1050px;
+  top: 25px;
+  background: #ffffff;
+  border: 1px solid #f03827;
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f03827;
+  transition: all 0.2s ease-in-out;
+}
+.bgnav a:hover {
+  background: #f03827;
+  color: #ffffff;
+}
+.left a {
+  margin-left: 110px;
+}
+.bgheader {
+  box-sizing: border-box;
+  position: relative;
+  width: 1290px;
+  height: 250px;
+  top: 120px;
+  background: linear-gradient(96.9deg, #f7f7f9 26.05%, #ffa198 103.2%);
+  border: 2px solid #f03827;
+  border-radius: 25px;
+  margin-bottom: 160px;
+}
+.bgheader img {
+  width: 480px;
+  float: right;
+  margin-top: -48px;
+}
+.bgheader h3 {
+  font-style: normal;
+  font-weight: 10;
+  font-size: 35px;
+  color: #333333;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.bgheader h6 {
+  margin-top: -50px;
+  margin-left: 105px;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: normal;
+  color: #464646;
+}
+.content h3 {
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: #333333;
+}
+.game {
+  display: flex;
+}
+.produk {
+  margin: 20px 10px 0 10px;
+  position: relative;
+  width: 240px;
+  height: 250px;
+  background: #ffffff;
+  border: 2px solid #f03827;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+  justify-content: center;
+  text-align: center;
+}
+.produk:hover {
+  margin-top: -1px;
+  box-shadow: 5px 5px #f03827;
+}
+
+.produk img {
+  margin-top: -30px;
+  width: 80px;
+}
+.produk label {
+  margin-top: 20px;
+  text-align: center;
+}
+.nmproduk {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-size: large;
+}
+.jmlhproduk {
+  background-color: #c3c3c4;
+  color: #333333;
+  padding: 5px;
+  width: 30%;
+  margin-left: 75px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.produk a {
+  background-color: #ffffff;
+  padding: 10px 40px 10px 40px;
+  border: 2px solid #f03827;
+  border-radius: 50px;
+  color: #f03827;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.produk a:hover {
+  background: #f03827;
+  color: #ffffff;
+}
+.produk button {
+  background-color: #ffffff;
+  margin-top: -10px;
+  padding: 12px 40px 12px 40px;
+  font-weight: bold;
+  border: 2px solid #f03827;
+  border-radius: 50px;
+  color: #f03827;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.produk button:hover {
+  background: #f03827;
+  color: #ffffff;
+}
+.riwayat {
+  text-align: center;
+  position: relative;
+  margin: 30px 0 30px 0;
+}
+.riwayat a {
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 2px solid #f03827;
+  padding: 10px 560px 10px 560px;
+  border-radius: 15px;
+  color: #f03827;
+  transition: all 0.2s ease-in-out;
+}
+.riwayat a:hover {
+  background: #f03827;
+  color: #ffffff;
+}
+.bgfooter {
+  position: absolute;
+  background-color: #f03827;
+  width: 100%;
+  height: 35px;
+  margin: 0 -50px 0 -50px;
+  text-align: center;
+}
+.bottom {
+  bottom: 0;
+}
+.wm {
+  color: #ffffff;
+  margin-top: 6px;
+}
+
+/* ============================================= Pembayaran.html ======================================== */
+
+.diamond {
+  margin: 80px 0 10px 40px;
+  font-size: 30px;
+  font-weight: 10;
+  color: #333333;
+}
+.bginput {
+  background-color: #ffffff;
+  border: 2px solid #c3c3c4;
+  padding: 20px;
+  width: 785px;
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.bginput:nth-child(2) {
+  margin-bottom: 0;
+}
+.judulinput {
+  font-size: 24px;
+  color: #494949;
+  margin-bottom: 10px;
+  pointer-events: none;
+}
+.atasinput {
+  font-size: 15px;
+  color: #404040;
+  pointer-events: none;
+}
+.input {
+  border: 2px solid #c3c3c4;
+  width: 742.92px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 20px;
+  font-size: 20px;
+  color: #494949;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+::placeholder {
+  font-size: 15px;
+  color: #c3c3c4;
+}
+.inputflex {
+  display: flex;
+}
+.input:nth-child(2) {
+  width: 348px;
+}
+.input2 {
+  margin-left: 20px;
+}
+.flexitem {
+  display: flex;
+  margin-bottom: 20px;
+}
+.flexcolumn {
+  flex-direction: column;
+}
+.beli {
+  background-color: #f7f7f9;
+  padding: 30px;
+  border: 2px solid #c3c3c4;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 100%;
+  margin-right: 40px;
+  text-align: center;
+}
+.beli label {
+  font-size: 16px;
+  color: #a6a6a6;
+}
+.jumlah {
+  margin: 20px 60px 20px 60px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  justify-content: center;
+  width: 60%;
+  padding: 5px;
+}
+.textjumlah {
+  padding: 10px 0 10px 0;
+}
+.plusbtn {
+  margin-left: 50px;
+  background-color: #f03827;
+  
+}
+.plusbtn a {
+  color: #ffffff;
+  pointer-events: none;
+
+}
+.minbtn {
+  margin-right: 50px;
+  background-color: #eeeeee;
+}
+.minbtn a {
+  color: #333333;
+  pointer-events: none;
+
+}
+.btn {
+  padding: 10px 17px 10px 17px;
+  border-radius: 50px;
+}
+.totalharga {
+  margin-top: 30px;
+}
+.total {
+  float: left;
+  color: #333333;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.harga {
+  float: right;
+  text-decoration: underline;
+  color: #494949;
+  font-size: 30px;
+  margin-right: 50px;
+}
+.belibtn button {
+  margin-top: 30px;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  bottom: 0;
+  width: 95%;
+  float: left;
+  background-color: #f03827;
+  border: none;
+}
+.pilihanlain label {
+  font-size: 20px;
+  margin-left: 40px;
+}
+.dmlain {
+  padding: 10px;
+}
+.dmlain a {
+  position: relative;
+  font-size: 20px;
+  float: left;
+  background-color: #ffffff;
+  border: 2px solid #c3c3c4;
+  padding: 20px 0px 20px 30px;
+  color: #777777;
+  width: 365px;
+  border-radius: 10px;
+  margin-left: 35px;
+  pointer-events: none;
+
+}
+.dmlain:nth-of-type(2),
+.dmlain:nth-of-type(3) {
+  margin-left: -40px;
+}
+.dmlain img {
+  float: right;
+  margin-right: 30px;
+}
+.dmlain2 {
+  margin-top: -25px;
+}
+/* ============================================= Daftar-Diamond.html ======================================== */
+.topupgame {
+  position: relative;
+  margin-top: 80px;
+  margin-left: 40px;
+  font-size: 25px;
+}
+  .dmml {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .dalamdm{
+    width: 265px;
+    height: 80px;
+    background-color: #ffffff;
+    border: 2px solid #C3C3C4;
+    border-radius: 10px 20px;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    pointer-events: all;
+    cursor: pointer;
+    
+  }
+  .dalamdm:hover {
+    box-shadow: 5px 5px #c3c3c4;
+    margin-top: -10px;
+  }
+
+
+  .dalamdm label:nth-child(2) {
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: -5px;
+  }
+
+
+  .dmml label:nth-child(1) {
+    margin-left: 10px;    
+    margin-top: -10px;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: 10;
+    font-style: italic;
+    float: right;
+  }
+  .dmbaris2 button {
+    margin-left: 20px;
+    background-color: #ffffff;
+    border: none;
+    margin-top: -40px;
+  }
+
+  .dmbaris2 {
+    margin-left: 20px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #333;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+
+
+/* ============================================= Riwayat.html ======================================== */
+.titleriwayat label {
+  position: absolute;
+  font-size: 25px;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+.bgtable {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid #c3c3c4;
+  position: relative;
+  margin: 130px 40px 40px 40px;
+}
+.bgtable td {
+  color: #818181;
+}
+.bgtable table,
+tr,
+td:first-child {
+  margin-right: -210px;
+}
+.bgtable table,
+th,
+td {
+  padding-right: 31px;
+  text-align: left;
+  font-size: 14px;
+}
+/* ============================================= Edit-Data.html ======================================== */
+.headereditdata {
+  background-color: #f03827;
+  position: absolute;
+  width: 100%;
+  height: 264px;
+  top: 0;
+  left: 0;
+  justify-content: center;
+}
+.headereditdata img {
+  float: left;
+  margin-left: 563px;
+  position: absolute;
+  margin-top: 30px;
+}
+.headereditdata label {
+  color: #ffffff;
+  font-size: 35px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 575px;
+  margin-top: 37px;
+}
+.bgform {
+  position: relative;
+  width: 526px;
+  height: 540px;
+  margin: auto;
+  top: 100px;
+  text-align: center;
+  background: #ffffff;
+  padding-top: 40px;
+  margin-bottom: 140px;
+}
+.bgform label {
+  position: relative;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #333333;
+}
+.inputeditdata {
+  align-items: center;
+}
+.inputeditdata label {
+  position: absolute;
+  font-size: 15px;
+  margin: 10px 0px 0 0;
+  left: 50px;
+  color: #8a8a8a;
+}
+.inputeditdata input {
+  border: 2px solid #c3c3c4;
+  border-radius: 10px 20px;
+  padding: 10px 100px 10px 100px;
+  text-align: center;
+  font-size: 20px;
+  color: #6d6d6d;
+  margin-top: 20px;
+}
+.dmedit {
+  border: 2px solid #c3c3c4;
+  border-radius: 10px 20px;
+  width: 59%;
+  padding: 12px 0 12px 130px;
+  font-size: 15px;
+  color: #8b8b8b;
+  margin-top: 20px;
+  display: flex;
+  margin-left: 40px;
+}
+.btngantidm a {
+  padding: 5px 50px 5px 50px;
+  background-color: #f03827;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid #f03827;
+}
+.btngantidm a:hover {
+  background-color: #ffffff;
+  color: #f03827;
+}
+.btneditdata {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.kembali a {
+  background-color: #ffffff;
+  border: 2px solid #f03827;
+  border-radius: 10px;
+  color: #f03827;
+  padding: 20px 74px 20px 74px;
+  transition: all 0.2s ease-in-out;
+}
+.kembali a :hover {
+  color: #ffffff;
+  background-color: #f03827;
+}
+.simpan button {
+  background-color: #f03827;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 20px 74px 20px 74px;
+  margin-left: 20px;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid #f03827;
+}
+.simpan button :hover {
+  background-color: #ffffff;
+  color: #f03827;
+  border: 2px solid #f03827;
+}
